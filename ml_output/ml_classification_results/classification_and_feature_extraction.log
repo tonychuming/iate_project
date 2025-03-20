@@ -1,0 +1,45 @@
+2025-03-20 09:07:58,952 - INFO - Starting coffee bean classification pipeline
+2025-03-20 09:07:58,956 - INFO - Feature Extraction started
+2025-03-20 09:07:58,968 - INFO - Processing 280 images from Normal/Dry/Dark/train
+2025-03-20 09:08:49,191 - INFO - Processing 120 images from Normal/Dry/Dark/test
+2025-03-20 09:09:10,277 - INFO - Processing 280 images from Normal/Dry/Light/train
+2025-03-20 09:10:22,126 - INFO - Starting coffee bean classification pipeline
+2025-03-20 09:10:22,130 - INFO - Feature Extraction started
+2025-03-20 09:10:22,138 - INFO - Processing 280 images from Normal/Dry/Dark/train
+2025-03-20 09:11:12,308 - INFO - Processing 120 images from Normal/Dry/Dark/test
+2025-03-20 09:11:33,054 - INFO - Processing 280 images from Normal/Dry/Light/train
+2025-03-20 09:12:32,651 - INFO - Processing 120 images from Normal/Dry/Light/test
+2025-03-20 09:12:55,884 - INFO - Processing 280 images from Normal/Dry/Medium/train
+2025-03-20 09:13:47,966 - INFO - Processing 120 images from Normal/Dry/Medium/test
+2025-03-20 09:14:11,990 - INFO - Processing 280 images from Normal/Honey/Dark/train
+2025-03-20 09:15:02,818 - INFO - Processing 120 images from Normal/Honey/Dark/test
+2025-03-20 09:15:24,518 - INFO - Processing 280 images from Normal/Honey/Light/train
+2025-03-20 09:16:14,840 - INFO - Processing 120 images from Normal/Honey/Light/test
+2025-03-20 09:16:35,077 - INFO - Processing 280 images from Normal/Honey/Medium/train
+2025-03-20 09:17:26,985 - INFO - Processing 120 images from Normal/Honey/Medium/test
+2025-03-20 09:17:46,734 - INFO - Processing 280 images from Normal/Wet/Dark/train
+2025-03-20 09:18:34,268 - INFO - Processing 120 images from Normal/Wet/Dark/test
+2025-03-20 09:18:55,073 - INFO - Processing 280 images from Normal/Wet/Light/train
+2025-03-20 09:19:42,560 - INFO - Processing 120 images from Normal/Wet/Light/test
+2025-03-20 09:20:05,021 - INFO - Processing 280 images from Normal/Wet/Medium/train
+2025-03-20 09:20:56,811 - INFO - Processing 120 images from Normal/Wet/Medium/test
+2025-03-20 09:21:18,789 - INFO - Processing 140 images from Defect/Dry/Dark/train
+2025-03-20 09:21:45,972 - INFO - Processing 60 images from Defect/Dry/Dark/test
+2025-03-20 09:21:59,061 - INFO - Processing 140 images from Defect/Dry/Light/train
+2025-03-20 09:22:30,758 - INFO - Processing 60 images from Defect/Dry/Light/test
+2025-03-20 09:22:44,433 - INFO - Processing 140 images from Defect/Dry/Medium/train
+2025-03-20 09:23:13,666 - INFO - Processing 60 images from Defect/Dry/Medium/test
+2025-03-20 09:23:26,805 - INFO - Processing 140 images from Defect/Honey/Dark/train
+2025-03-20 09:23:53,742 - INFO - Processing 60 images from Defect/Honey/Dark/test
+2025-03-20 09:24:05,641 - INFO - Processing 140 images from Defect/Honey/Light/train
+2025-03-20 09:24:30,707 - INFO - Processing 60 images from Defect/Honey/Light/test
+2025-03-20 09:24:40,458 - INFO - Processing 140 images from Defect/Honey/Medium/train
+2025-03-20 09:25:02,970 - INFO - Processing 60 images from Defect/Honey/Medium/test
+2025-03-20 09:25:12,891 - INFO - Processing 140 images from Defect/Wet/Dark/train
+2025-03-20 09:25:36,373 - INFO - Processing 60 images from Defect/Wet/Dark/test
+2025-03-20 09:25:46,658 - INFO - Processing 140 images from Defect/Wet/Light/train
+2025-03-20 09:26:10,468 - INFO - Processing 60 images from Defect/Wet/Light/test
+2025-03-20 09:26:21,419 - INFO - Processing 140 images from Defect/Wet/Medium/train
+2025-03-20 09:26:45,996 - INFO - Processing 60 images from Defect/Wet/Medium/test
+2025-03-20 09:26:57,402 - INFO - Classification stage started
+2025-03-20 09:30:23,790 - INFO - All models evaluated successfully.

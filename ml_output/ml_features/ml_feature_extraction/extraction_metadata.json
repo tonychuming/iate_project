@@ -1,0 +1,49 @@
+{
+    "extraction_date": "2025-03-20 09:26:57",
+    "processing_time": {
+        "total_time": "994.44 seconds",
+        "method_breakdown": {
+            "color_correlogram": "696.59 seconds",
+            "glcm": "219.27 seconds",
+            "region_props": "63.13 seconds"
+        },
+        "average_times": {
+            "color_correlogram": "0.1290 seconds/image",
+            "glcm": "0.0406 seconds/image",
+            "region_props": "0.0117 seconds/image"
+        }
+    },
+    "dataset_statistics": {
+        "total_samples": 5400,
+        "class_distribution": {
+            "test_Defect": 540,
+            "test_Normal": 1080,
+            "train_Defect": 1260,
+            "train_Normal": 2520
+        },
+        "feature_dimensions": {
+            "color_correlogram": 117,
+            "glcm": 60,
+            "region_props": 5
+        },
+        "total_dimensions": 182
+    },
+    "parameters": {
+        "color_correlogram_distances": [
+            1,
+            2,
+            3
+        ],
+        "glcm_distances": [
+            1,
+            2,
+            3
+        ],
+        "glcm_angles": [
+            0,
+            45,
+            90,
+            135
+        ]
+    }
+}
