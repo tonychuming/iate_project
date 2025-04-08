@@ -1,0 +1,23 @@
+{
+    "model_summary": {
+        "name": "SVM",
+        "feature_combination": "color_channel_texture+texture+shape",
+        "total_features": 182,
+        "best_hyperparameters": {
+            "classifier__C": 152.84688768272233,
+            "classifier__gamma": "scale",
+            "classifier__kernel": "rbf"
+        }
+    },
+    "performance_metrics": {
+        "accuracy": 0.9117283950617284,
+        "precision": 0.9144050104384134,
+        "recall": 0.8111111111111111,
+        "f1": 0.8596663395485771,
+        "roc_auc": 0.9624074074074074
+    },
+    "timing_information": {
+        "total_time": 38.35344696044922
+    },
+    "feature_importance": null
+}
