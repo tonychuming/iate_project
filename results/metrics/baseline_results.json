@@ -1,0 +1,83 @@
+{
+  "validation_results": {
+    "RandomForest": {
+      "accuracy": 0.8876543209876543,
+      "precision": 0.8874458874458875,
+      "recall": 0.7592592592592593,
+      "f1_score": 0.8183632734530938,
+      "auc": 0.9532578875171468,
+      "confusion_matrix": [
+        [
+          514,
+          26
+        ],
+        [
+          65,
+          205
+        ]
+      ],
+      "train_time": 0.588003396987915
+    },
+    "GradientBoosting": {
+      "accuracy": 0.8975308641975308,
+      "precision": 0.8879668049792531,
+      "recall": 0.7925925925925926,
+      "f1_score": 0.837573385518591,
+      "auc": 0.9646639231824417,
+      "confusion_matrix": [
+        [
+          513,
+          27
+        ],
+        [
+          56,
+          214
+        ]
+      ],
+      "train_time": 33.17037892341614
+    },
+    "SVM": {
+      "accuracy": 0.8814814814814815,
+      "precision": 0.8717948717948718,
+      "recall": 0.7555555555555555,
+      "f1_score": 0.8095238095238095,
+      "auc": 0.9450925925925925,
+      "confusion_matrix": [
+        [
+          510,
+          30
+        ],
+        [
+          66,
+          204
+        ]
+      ],
+      "train_time": 2.176562547683716
+    }
+  },
+  "test_results": {
+    "model": "GradientBoosting",
+    "accuracy": 0.9123456790123456,
+    "precision": 0.9307359307359307,
+    "recall": 0.7962962962962963,
+    "f1_score": 0.8582834331337326,
+    "auc": 0.9663168724279836,
+    "confusion_matrix": [
+      [
+        524,
+        16
+      ],
+      [
+        55,
+        215
+      ]
+    ]
+  },
+  "feature_dimensions": 343,
+  "feature_types": {
+    "color": "Histograms, moments, LAB statistics",
+    "texture": "GLCM, LBP, Haralick",
+    "shape": "Contours, Hu moments, edge density",
+    "frequency": "FFT radial profile"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "total_images": 5400,
+  "class_distribution": {
+    "Normal": 3600,
+    "Defect": 1800
+  },
+  "split_sizes": {
+    "train": 3780,
+    "val": 810,
+    "test": 810
+  },
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "process_distribution": {
+    "dry": {
+      "train": {
+        "Normal": 828,
+        "Defect": 416
+      },
+      "val": {
+        "Normal": 193,
+        "Defect": 102
+      },
+      "test": {
+        "Normal": 179,
+        "Defect": 82
+      }
+    },
+    "honey": {
+      "train": {
+        "Normal": 856,
+        "Defect": 426
+      },
+      "val": {
+        "Normal": 174,
+        "Defect": 79
+      },
+      "test": {
+        "Normal": 170,
+        "Defect": 95
+      }
+    },
+    "wet": {
+      "train": {
+        "Normal": 836,
+        "Defect": 418
+      },
+      "val": {
+        "Normal": 173,
+        "Defect": 89
+      },
+      "test": {
+        "Normal": 191,
+        "Defect": 93
+      }
+    }
+  },
+  "roast_distribution": {
+    "medium": {
+      "train": {
+        "Normal": 846,
+        "Defect": 417
+      },
+      "val": {
+        "Normal": 165,
+        "Defect": 101
+      },
+      "test": {
+        "Normal": 189,
+        "Defect": 82
+      }
+    },
+    "dark": {
+      "train": {
+        "Normal": 858,
+        "Defect": 430
+      },
+      "val": {
+        "Normal": 184,
+        "Defect": 91
+      },
+      "test": {
+        "Normal": 158,
+        "Defect": 79
+      }
+    },
+    "light": {
+      "train": {
+        "Normal": 816,
+        "Defect": 413
+      },
+      "val": {
+        "Normal": 191,
+        "Defect": 78
+      },
+      "test": {
+        "Normal": 193,
+        "Defect": 109
+      }
+    }
+  },
+  "class_balance": {
+    "train": {
+      "Normal": 0.6666666666666666,
+      "Defect": 0.3333333333333333
+    },
+    "val": {
+      "Normal": 0.6666666666666666,
+      "Defect": 0.3333333333333333
+    },
+    "test": {
+      "Normal": 0.6666666666666666,
+      "Defect": 0.3333333333333333
+    }
+  }
+}
